@@ -26,4 +26,4 @@ Este archivo XSLT transforma un XML de factura en una página HTML formateada.
 ## Ejemplo de Transformación
 
 Dado el siguiente XML:
-
+https://github.com/AntonioManresa9/xslt_facturas/blob/main/img/Captura%20xslt.png
