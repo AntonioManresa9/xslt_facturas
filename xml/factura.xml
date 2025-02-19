@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Factura>
+  <NumeroFactura>12345</NumeroFactura>
+  <Fecha>2023-10-01</Fecha>
+  <Cliente>
+    <Nombre>Juan Pérez</Nombre>
+    <Direccion>Calle Falsa 123</Direccion>
+    <Ciudad>Madrid</Ciudad>
+    <CodigoPostal>28001</CodigoPostal>
+  </Cliente>
+  <Productos>
+    <Producto>
+      <Descripcion>Producto 1</Descripcion>
+      <Cantidad>2</Cantidad>
+      <PrecioUnitario>50.00</PrecioUnitario>
+      <Total>100.00</Total>
+    </Producto>
+    <Producto>
+      <Descripcion>Producto 2</Descripcion>
+      <Cantidad>1</Cantidad>
+      <PrecioUnitario>75.00</PrecioUnitario>
+      <Total>75.00</Total>
+    </Producto>
+  </Productos>
+  <Total>175.00</Total>
+</Factura>

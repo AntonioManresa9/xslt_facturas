@@ -1,0 +1,19 @@
+<Facturae>
+    <Cabecera>
+        <NumeroFactura>456789</NumeroFactura>
+        <FechaFactura>2023-05-05</FechaFactura>
+        <Emisor>
+            <Nombre>Empresa C</Nombre>
+            <NIF>87654321B</NIF>
+        </Emisor>
+        <Receptor>
+            <Nombre>Cliente C</Nombre>
+            <NIF>123456789A</NIF>
+        </Receptor>
+    </Cabecera>
+    <DatosFactura>
+        <ImporteTotal>2000.00</ImporteTotal>
+        <IVA>230.00</IVA>
+        <TotalAPagar>2210.00</TotalAPagar>
+    </DatosFactura>
+</Facturae>
