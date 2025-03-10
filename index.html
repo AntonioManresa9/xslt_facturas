@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -24,6 +24,10 @@
             padding: 20px;
             background: rgba(0, 0, 0, 0.7);
             border-radius: 10px;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
         }
         h2 {
             margin-bottom: 10px;
@@ -56,27 +60,31 @@
 </head>
 
 <body>
-    <div class="container">
-        <h2 id="factura1">FACTURA 1</h2>
-        <ul>
-            <li><a href="./xml/factura.xml" target="_blank">XML de Factura</a></li>
-            <li><a href="./xslt/transformacion.xslt" target="_blank">XSLT de Factura</a></li>
-            <li><a href="./html/factura.html" target="_blank">HTML de Factura</a></li>
-        </ul>
-    </div>
+    <header>
+        <h1>Facturas</h1>
+    </header>
+    <main>
+        <section class="container">
+            <h2 id="factura1">FACTURA 1</h2>
+            <ul>
+                <li><a href="./xml/factura.xml" target="_blank">XML de Factura</a></li>
+                <li><a href="./xslt/transformacion.xslt" target="_blank">XSLT de Factura</a></li>
+                <li><a href="./html/factura.html" target="_blank">HTML de Factura</a></li>
+            </ul>
+        </section>
+        
+        <section class="container" style="margin-top: 40px;">
+            <h2 id="factura2">FACTURA 2</h2>
+            <ul>
+                <li><a href="./xml/factura2.xml" target="_blank">XML de Factura2</a></li>
+                <li><a href="./xslt/transformacion2.xslt" target="_blank">XSLT de Factura2</a></li>
+                <li><a href="./html/factura2.html" target="_blank">HTML de Factura2</a></li>
+            </ul>
+        </section>
+    </main>
     
-    <div class="container" style="margin-top: 40px;">
-        <h2 id="factura2">FACTURA 2</h2>
-        <ul>
-            <li><a href="./xml/factura2.xml" target="_blank">XML de Factura2</a></li>
-            <li><a href="./xslt/transformacion2.xslt" target="_blank">XSLT de Factura2</a></li>
-            <li><a href="./html/factura2.html" target="_blank">HTML de Factura2</a></li>
-        </ul>
-    </div>
-    
-    <div class="footer">
+    <footer class="footer">
         <a href="https://github.com/AntonioManresa9/xslt_facturas/blob/main/README.md" download>Accede al README.md</a>
-    </div>
+    </footer>
 </body>
-
 </html>
